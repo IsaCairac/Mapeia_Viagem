@@ -80,6 +80,7 @@ mapeia-viagem/
 │   └── fundo.gif       # Imagem de fundo
 └── README.md           # Este arquivo
 
+```
 ## Contribuições
 
 Contribuições são bem-vindas! Se você tiver sugestões de melhorias, novas funcionalidades ou correções, sinta-se à vontade para abrir uma *issue* ou enviar um *pull request*. Vamos adorar colaborar para tornar este projeto ainda melhor.
