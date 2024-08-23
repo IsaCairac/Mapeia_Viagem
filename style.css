@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+body {
+    font-family: sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/fundo.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  header{
+    background-color: #1693a5;
+    text-align: center;
+    padding: 1px 0; /* Adiciona um padding interno no header */
+    position: sticky; /* Ou fixed, dependendo do comportamento desejado */
+    top: 0; /* Para garantir que esteja sempre no topo */
+    z-index: 1000; /* Para sobrepor outros elementos, se necessário */
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+  
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    min-height: 65vh;
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-family: "Merienda", cursive;
+ 
+  }
+
+  #titulo{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: "Merienda", cursive;
+    margin-bottom: 40px;
+    margin-left: -30px;
+
+  }
+  
+  .formulario {
+    background-color: rgba(30,30,30,0.8);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+
+  h3 {
+    color: #1693a5;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .ingredient-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .ingredient-input {
+    flex: 1;
+    height: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #444;
+    color: #fff;
+    font-size: medium;
+  }
+  .btn-success {
+    background-color: #1d4949;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .response {
+    margin-top: 20px;
+    background-color: rgba(30,30,30,0.8);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  footer{
+    background-color: #1693a5;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    position: relative;
+  }
+
+  p{
+    margin-left: 10px;
+  }
+
+
+  figure img{
+    width: 50px;
+    
+  }
+  
+
+  /* BOTÃO */
+  /* From Uiverse.io by cssbuttons-io */ 
+/* From Uiverse.io by arieshiphop */ 
+button {
+  font-size: 17px;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  background: #1693a5;
+  color: white;
+  border-radius: 4px;
+ }
+ 
+ button:hover {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, #1babc1 0%, #21c5df 100%);
+ }
+ 
+ button:active {
+  transform: translate(0em, 0.2em);
+ }
+
+
+ 

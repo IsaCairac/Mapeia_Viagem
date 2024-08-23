@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Turístico</title>
+    <link rel="shortcut icon" href="img/plane.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <figure><img src="img/logomapeia.png" alt=""></figure><h4 id="titulo">Mapeia Viagem</h4>
+    </header>
+    
+    <div class="container">
+        
+        <div class="formulario">
+            <h3 >Descubra lugares incríveis para visitar!</h3>
+            <div id="ingredients">
+                <div class="ingredient-row">
+                    <input type="text" class="ingredient ingredient-input" placeholder="Insira um país ou cidade...">
+                </div>
+            </div>
+            <button class="button" onclick="submitForm()">
+                <span class="text">Pesquisar</span>
+              </button>
+
+        </div>
+        <div id="response" class="response"></div>
+    </div>
+    <footer style="padding: 5px;">
+        <div class="col-12 col-md-4 text-center" style="margin-left: 50px; ">&copy; 2024 Mapeia Viagem</div>
+        <div class="col-12 col-md-4 text-center" style="color: #fff; margin-left: 100px;">Developed by Isabella & Maria Machado</div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
+
