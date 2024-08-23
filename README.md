@@ -91,5 +91,5 @@ Este projeto está licenciado sob a MIT License. Consulte o arquivo `LICENSE` pa
 
 ## Desenvolvedores
 
-- **Isabella**
-- **Maria Machado**
+- **Isabella Cairac Bagdal**
+- **Maria Eduarda Machado**
